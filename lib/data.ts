@@ -1,28 +1,6 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import movieRecsImg from "@/public/movierecs.png";
 
-export const experiencesData = [
-  {
-    title: "Deep Learning Researcher",
-    location: "University of Georgia",
-    description:
-      "researched.",
-    icon: React.createElement(FaReact),
-    date: "Jan 2025 - May 2025",
-  },
-  {
-    title: "Computational Geometry Researcher",
-    location: "University of Georgia",
-    description:
-      "researched.",
-    icon: React.createElement(FaReact),
-    date: "Sep 2024 - May 2025",
-
-  },
-] as const;
 
 export const projectsData = [
   {
@@ -30,9 +8,8 @@ export const projectsData = [
     description:
       "Created and trained a model using MovieLens dataset to  provide personalized film suggesstions based on genres and ratings.",
     tags: ["PyTorch", "Flask", "HTML", "CSS", "+1"],
-    imageUrl: movieRecsImg,
     date: 2025,
-    link: "www.github.com",
+    link: "https://github.com/virajnain/movie-recs",
     index: 1,
   },
   {
@@ -40,7 +17,6 @@ export const projectsData = [
     description:
       "Contributed to NODE-ImgNet, a PDE and neural network based image denoising model. Worked on regularization.",
     tags: ["PyTorch", "NumPy", "Pandas", "matplotlib", "+2"],
-    imageUrl: movieRecsImg,
     date: 2025,
     link: "",
     index: 2,
@@ -50,9 +26,8 @@ export const projectsData = [
     description:
       "Coded a proof to the 7-point case of the Erdos Szekeres problem of convex n-gons using Glucose42 SAT Solver.",
     tags: ["C++", "CMake", "Glucose42"],
-    imageUrl: movieRecsImg,
     date: 2024,
-    link: "",
+    link: "https://www.cs.umd.edu/~gasarch/BLOGPAPERS/erdos-szekeres.pdf",
     index: 3,
   },
 ] as const;

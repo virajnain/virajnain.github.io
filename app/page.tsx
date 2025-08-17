@@ -101,27 +101,18 @@ export default function Home() {
       transition={{ delay: 2, duration: 0.8 }}
       >
 
-        {/* Projects */}
         <Link
-        href="/projects"
-        className="group relative overflow-hidden bg-gray-200 px-7 py-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 active:scale-105 transition hover:bg-black hover:text-white"
+          href="/projects"
+          className="group relative overflow-hidden bg-white/20 backdrop-blur-md border border-white/30 px-7 py-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 active:scale-105 transition hover:bg-white/30 hover:text-white"
         >
-        <span className="absolute top-0 left-0 w-[50%] h-full opacity-0 group-hover:opacity-100 pointer-events-none"></span>
-
-        projects <FaCode className="opacity-70 group-hover:translate-x-1 transition" />
+          projects <FaCode className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
-
-        {/* About Me */}
         <a
-            href="/about"
-            className="group relative overflow-hidden bg-gray-200 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack hover:bg-black hover:text-white"
+          href="/about"
+          className="group relative overflow-hidden bg-white/20 backdrop-blur-md border border-white/30 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition hover:bg-white/30 hover:text-white"
         >
-            <span className="absolute left-[-75%] top-0 w-1/2 h-full -rotate-12 opacity-0 group-hover:opacity-100 transition-all duration-500">
-            </span>
-
-            more about me{" "}
-            <IoPerson className="opacity-60 group-hover:translate-x-1 transition" />
+          more about me <IoPerson className="opacity-60 group-hover:translate-x-1 transition" />
         </a>
         </motion.div>
 

@@ -9,25 +9,30 @@ export default function Projects() {
 
   return (
     <section id="projects" className="px-4 flex flex-col items-center">
-  {/* Heading */}
-  <a
-        href="/"
-        className="inline-block px-4 py-2 bg-gray-200 rounded-md hover:bg-gray-300 transition"
-      >
-        Back to Home
-      </a>
+      <motion.div
+      className="-mt-20 font-medium text-gray-700 cursor-pointer"
+      initial={{ opacity: 0, y: -100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1, delay: 2 }}
+    >
+      <a className="hover:text-[#CF9FFF] hover:translate-x-1 duration-500"
+      href="/">Home</a>
+    </motion.div>
+
+
+
   <div className="w-full max-w-4xl text-center">
     <motion.p
-      className="mb-1 mt-1 font-medium !leading-[1.5] text-gray-700"
+      className="mb-1 mt-20 font-medium !leading-[1.5] text-gray-700"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 1, delay:0.5 }}
+      transition={{ duration: 1 }}
     >
       <span className="text-2xl font-semibold">Project Portfolio</span>
     </motion.p>
 
     <motion.p
-      className="mb-5 mt-2 text-xl !leading-[1.5] text-gray-700"
+      className="mb-10 mt-2 text-xl !leading-[1.5] text-gray-700"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 1, duration: 1 }}
