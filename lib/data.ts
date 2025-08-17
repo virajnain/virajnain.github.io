@@ -27,7 +27,7 @@ export const projectsData = [
       "Coded a proof to the 7-point case of the Erdos Szekeres problem of convex n-gons using Glucose42 SAT Solver.",
     tags: ["C++", "CMake", "Glucose42"],
     date: 2024,
-    link: "https://www.cs.umd.edu/~gasarch/BLOGPAPERS/erdos-szekeres.pdf",
+    link: "https://github.com/virajnain/erdos-szekeres-problem",
     index: 3,
   },
 ] as const;
