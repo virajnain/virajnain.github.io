@@ -1,16 +1,16 @@
 {
-  "homepage": "https://virajnain.github.io",
   "name": "portfolio",
+  "homepage": "https://virajnain.github.io",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "GITHUB_ACTIONS=true next build",
     "start": "next start",
     "lint": "next lint",
     "export": "next build && next export",
-    "predeploy": "npm run build && npm run export",
-    "deploy": "gh-pages -d out"
+    "predeploy": "rm -rf out",
+    "deploy": "gh-pages -d out -b gh-pages"
   },
   "dependencies": {
     "@react-email/components": "^0.0.7",
@@ -20,6 +20,7 @@
     "@types/react-dom": "18.2.6",
     "autoprefixer": "10.4.14",
     "clsx": "^1.2.1",
+    "critters": "^0.0.23",
     "eslint": "8.43.0",
     "eslint-config-next": "13.4.7",
     "framer-motion": "^10.12.17",
