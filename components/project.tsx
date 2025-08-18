@@ -66,7 +66,7 @@ export default function Project({
               ))}
             </ul>
 
-            <span className="mt-2 text-gray-700 text-xs">{date}</span>
+            <span className="mt-2 text-gray-700 text-xs hover:text-[#CF9FFF] duration-500">{date}</span>
           </div>
         </div>
       </section>
