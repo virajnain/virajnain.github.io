@@ -112,7 +112,7 @@ export default function Home() {
           href="/about"
           className="group relative overflow-hidden bg-white/20 backdrop-blur-md border border-white/30 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition hover:bg-white/30 hover:text-white"
         >
-          more about me <IoPerson className="opacity-60 group-hover:translate-x-1 transition" />
+          about me <IoPerson className="opacity-60 group-hover:translate-x-1 transition" />
         </a>
         </motion.div>
 

@@ -37,7 +37,7 @@ export default function AboutMe() {
           transition={{ delay: 1.25, duration: 2 }}
 
         >
-          Hi! I’m Viraj, a CS student at UChicago, passionate about programming and math. Previously I was studying applied mathematics at the University of Georgia. <br></br><br></br>I plan on pursuing a career in research. My interests lie in theoretical computer science, algos, ml, and optimization
+          Hi! I’m Viraj, a CS student at UChicago, passionate about programming and math. <br></br><br></br>I plan on pursuing a career in research. My interests lie in theoretical computer science, algos, ml, and optimization.
         </motion.p>
       </div>
 </section>
