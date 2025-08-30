@@ -4,22 +4,31 @@ import { FaReact } from "react-icons/fa";
 
 export const projectsData = [
   {
+    title: "Algorithmic Trading Bot",
+    description:
+      "Built and backtested systematic trading strategies, including Long/Short and Markov-chain-based approaches, with performance analysis and visualization.",
+    tags: ["Pandas", "Matplotlib", "yfinance", "+2"],
+    date: 2025,
+    link: "https://github.com/virajnain/algo-trading",
+    index: 1,
+  },
+  {
     title: "Movie Recommendation System",
     description:
       "Created and trained a model using MovieLens dataset to  provide personalized film suggesstions based on genres and ratings.",
     tags: ["PyTorch", "Flask", "HTML", "CSS", "+1"],
     date: 2025,
     link: "https://github.com/virajnain/movie-recs",
-    index: 1,
+    index: 2,
   },
   {
     title: "Image Denoising Model",
     description:
       "Contributed to NODE-ImgNet, a PDE and neural network based image denoising model. Worked on regularization.",
-    tags: ["PyTorch", "NumPy", "Pandas", "matplotlib", "+2"],
+    tags: ["PyTorch", "NumPy", "Pandas", "Matplotlib", "+2"],
     date: 2025,
     link: "",
-    index: 2,
+    index: 3,
   },
   {
     title: "Erdos-Szekeres Problem",
@@ -28,7 +37,7 @@ export const projectsData = [
     tags: ["C++", "CMake", "Glucose42"],
     date: 2024,
     link: "https://github.com/virajnain/erdos-szekeres-problem",
-    index: 3,
+    index: 4,
   },
 ] as const;
 
