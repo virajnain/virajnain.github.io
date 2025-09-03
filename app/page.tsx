@@ -32,7 +32,7 @@ export default function Home() {
           transition={{ delay: 0.3, duration: 1 }}
 
         >
-          <span className="font-semibold">Computer Science</span> @{" "}
+          <span className="font-semibold">CS & Applied Math</span> @{" "}
           <span className="font-semibold bg-gradient-to-r bg-clip-text text-transparent 
             from-indigo-500 via-purple-500 to-indigo-500 animate-text">
             UChicago
