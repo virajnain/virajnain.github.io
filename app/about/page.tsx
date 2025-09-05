@@ -39,7 +39,7 @@ export default function AboutMe() {
         >
           Hi! I’m Viraj, a student at the University of Chicago, passionate about programming and math, and interested in pursuing a career in research. 
           <br></br><br></br>
-          I have experience working on problems in computational geometry, numerical analysis, and image processing. Currently, my research interests lie in theoretical computer science, algorithms, ml, and optimization.
+          I have experience working on problems in computational geometry, numerical analysis, and image denoising. Currently, my research interests lie in theoretical computer science, algorithms, ml, and optimization.
         </motion.p>
       </div>
 </section>
